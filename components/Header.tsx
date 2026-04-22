@@ -19,6 +19,12 @@ export function Header() {
           >
             Jelajahi
           </Link>
+          <Link
+            href="/admin"
+            className="hidden text-sm font-medium text-muted-foreground hover:text-foreground transition-colors sm:inline"
+          >
+            Admin
+          </Link>
           <Button variant="outline" size="sm" className="hidden sm:inline-flex">
             Jadi Host
           </Button>
